@@ -1,0 +1,25 @@
+{
+  "name": "@alextheartisan/generators",
+  "version": "1.0.0",
+  "description": "My generators for repetitive tasks",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "plop.config.js",
+  "scripts": {
+    "format": "prettier"
+  },
+  "prettier": "@alextheartisan/prettier-config",
+  "dependencies": {
+    "inquirer-directory": "^2.2.0",
+    "lodash": "^4.17.21",
+    "plop": "^2.7.6",
+    "sort-package-json": "^1.52.0"
+  },
+  "devDependencies": {
+    "@alextheartisan/prettier-config": "^2.0.0",
+    "@types/lodash": "^4.14.175",
+    "@types/node": "^16.11.1",
+    "prettier": "^2.4.1"
+  }
+}
