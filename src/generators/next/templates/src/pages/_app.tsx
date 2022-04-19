@@ -8,7 +8,7 @@ class MyApp extends App {
     let { Component, pageProps } = this.props
 
     return (
-      <QueryClientProvider client={client}>
+      <QueryClientProvider>
         <Head>
           <title>My Next Application</title>
         </Head>

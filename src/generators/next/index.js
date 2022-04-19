@@ -40,8 +40,8 @@ module.exports = {
       type: 'install',
       dependencies: [
         'next', //
-        'react',
-        'react-dom',
+        'react@17',
+        'react-dom@17',
         'react-query',
         'axios',
         'normalize.css',

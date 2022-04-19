@@ -3,7 +3,7 @@ const { flow } = require('lodash')
 const json = require('../utils/json')
 
 module.exports = {
-  description: 'Add prettier support',
+  description: 'Add TypeScript support',
   prompts: [],
   actions: [
     {
